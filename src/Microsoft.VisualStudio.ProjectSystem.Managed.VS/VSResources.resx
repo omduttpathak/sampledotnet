@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RenameSymbolFailed" xml:space="preserve">
+    <value>Renaming the code element '{0}' failed.</value>
+  </data>
+  <data name="RenameSymbolPrompt" xml:space="preserve">
+    <value>You are renaming a file. Would you also like to perform a rename in this project of all references to the code element '{0}'?</value>
+  </data>
+  <data name="ActiveLaunchProfileNotFound" xml:space="preserve">
+    <value>There aren't any active launch profiles configured for this project.</value>
+  </data>
+  <data name="DontKnowHowToRunProfile_2" xml:space="preserve">
+    <value>The project doesn't know how to run the profile with name '{0}' and command '{1}'.</value>
+    <comment>
+      {0} is the profile name, which comes from the user.
+      {1} is the profile command, which is usually an internal string but is helpful when diagnosing issues here.
+    </comment>
+  </data>
+  <data name="ErrorInProfilesFile" xml:space="preserve">
+    <value>An error in the launch settings file needs to be corrected before you can run the '{0}' project . Please see the error list for details.</value>
+  </data>
+  <data name="ErrorInProfilesFile2" xml:space="preserve">
+    <value>An error in the launch settings file needs to be corrected before you can run the '{0}' project. {1}. Please see the error list for details.</value>
+  </data>
+  <data name="ProjectNotRunnableDirectly" xml:space="preserve">
+    <value>A project with an Output Type of Class Library cannot be started directly.
+
+In order to debug this project, add an executable project to this solution which references the library project. Set the executable project as the startup project.</value>
+  </data>
+  <data name="NoDebugExecutableSpecified" xml:space="preserve">
+    <value>The debug profile '{0}' is missing the path to the executable to debug.</value>
+  </data>
+  <data name="DebugExecutableNotFound" xml:space="preserve">
+    <value>The debug executable '{0}' specified in the '{1}' debug profile does not exist.</value>
+  </data>
+  <data name="WorkingDirecotryInvalid" xml:space="preserve">
+    <value>The working directory '{0}' specified in the '{1}' debug profile does not exist.</value>
+  </data>
+  <data name="PackCommand" xml:space="preserve">
+    <value>&amp;Pack</value>
+  </data>
+  <data name="MultiTFEditNotSupported" xml:space="preserve">
+    <value>Editing of multiple target framework is not supported.</value>
+  </data>
+  <data name="PackSelectedProjectCommand" xml:space="preserve">
+    <value>&amp;Pack {0}</value>
+  </data>
+  <data name="DebugFrameworkMenuText" xml:space="preserve">
+    <value>Framework ({0})</value>
+  </data>
+  <data name="DontShowAgain" xml:space="preserve">
+    <value>Don't show again</value>
+  </data>
+  <data name="ImportsFromTargetCannotBeDeleted" xml:space="preserve">
+    <value>{0} - Import comes fom target file. This import cannot be removed.</value>
+  </data>
+  <data name="Restore_PropertyWithInconsistentValues" xml:space="preserve">
+    <value>The value of the '{0}' property is inconsistent between target frameworks. This property must be identical for NuGet restore to function correctly. The value '{1}' from the '{2}' configuration will be used, other target frameworks may fail to pick NuGet assets.</value>
+  </data>
+  <data name="Restore_DuplicateToolReferenceItems" xml:space="preserve">
+    <value>The metadata on 'DotNetCliToolReference' item '{0}' is inconsistent between target frameworks. Only the first one will be restored.</value>
+  </data>
+  <data name="Restore_EmptyTargetFrameworkMoniker" xml:space="preserve">
+    <value>The value of the 'TargetFrameworkMoniker' and 'NuGetTargetMoniker' properties in the '{0}' configuration are both empty. This configuration will not contribute to NuGet restore, which may result in restore and build errors.</value>
+  </data>
+  <data name="XprojNotSupported" xml:space="preserve">
+    <value>Xproj project files are no longer supported. For details on migrating to csproj see https://docs.microsoft.com/dotnet/core/migration/.</value>
+  </data>
+  <data name="WindowsFormEditor_DisplayName" xml:space="preserve">
+    <value>Form (Windows Forms) Designer</value>
+  </data>
+  <data name="ComponentEditor_DisplayName" xml:space="preserve">
+    <value>Component (Windows Forms) Designer</value>
+  </data>
+  <data name="UserControlEditor_DisplayName" xml:space="preserve">
+    <value>User Control (Windows Forms) Designer</value>
+  </data>
+  <data name="Renaming_Type" xml:space="preserve">
+    <value>Renaming Type</value>
+  </data>
+  <data name="Renaming_Type_from_0_to_1" xml:space="preserve">
+    <value>Renaming Type from '{0}' to '{1}'</value>
+  </data>
+  <data name="FrameworkAssemblyBrowseObjectClassName" xml:space="preserve">
+    <value>Framework Assembly</value>
+  </data>
+  <data name="FrameworkAssemblyAssemblyNameDisplayName" xml:space="preserve">
+    <value>Assembly Name</value>
+  </data>
+  <data name="FrameworkAssemblyAssemblyNameDescription" xml:space="preserve">
+    <value>The name of the framework assembly.</value>
+  </data>
+  <data name="FrameworkAssemblyPathDisplayName" xml:space="preserve">
+    <value>Path</value>
+  </data>
+  <data name="FrameworkAssemblyPathDescription" xml:space="preserve">
+    <value>Path of the framework assembly.</value>
+  </data>
+  <data name="FrameworkAssemblyAssemblyVersionDisplayName" xml:space="preserve">
+    <value>Assembly Version</value>
+  </data>
+  <data name="FrameworkAssemblyAssemblyVersionDescription" xml:space="preserve">
+    <value>The assembly version of the framework assembly.</value>
+  </data>
+  <data name="FrameworkAssemblyFileVersionDisplayName" xml:space="preserve">
+    <value>File Version</value>
+  </data>
+  <data name="FrameworkAssemblyFileVersionDescription" xml:space="preserve">
+    <value>The file version of the framework assembly.</value>
+  </data>
+  <data name="StartupObjectNotSet" xml:space="preserve">
+    <value>(Not set)</value>
+    <comment>Text to display to the user in the property page UI when the "startup object" property is not set.</comment>
+  </data>
+  <data name="DefaultNewProfileName" xml:space="preserve">
+    <value>Profile {0}</value>
+    <comment>Default name for new launch profiles. The {0} is a decimal number chosen to guarantee the name is unique.</comment>
+  </data>
+  <data name="HotReloadOutputWindowPaneName" xml:space="preserve">
+    <value>Hot Reload</value>
+    <comment>This is the name given to the Output Window pane responsible for displaying messages related to Hot Reload operations.</comment>
+  </data>
+  <data name="HotReloadApplyUpdatesSuccessful" xml:space="preserve">
+    <value>Updates applied successfully.</value>
+  </data>
+  <data name="HotReloadApplyUpdatesFailure" xml:space="preserve">
+    <value>Applying updates failed: {0}</value>
+  </data>
+  <data name="HotReloadErrorsInApplication" xml:space="preserve">
+    <value>Errors found in application: </value>
+  </data>
+  <data name="HotReloadRestartInProgress" xml:space="preserve">
+    <value>Rebuilding and restarting the application since the edits can't be applied dynamically.</value>
+  </data>
+  <data name="HotReloadStoppingApplication" xml:space="preserve">
+    <value>Stopping application.</value>
+  </data>
+  <data name="HotReloadStartSession" xml:space="preserve">
+    <value>Hot Reload session started.</value>
+  </data>
+  <data name="HotReloadStopSession" xml:space="preserve">
+    <value>Hot Reload session complete.</value>
+  </data>
+  <data name="HotReloadSendingUpdates" xml:space="preserve">
+    <value>Sending updates to running application.</value>
+  </data>
+  <data name="ProjectHotReloadSessionManager_AttachingToProcess" xml:space="preserve">
+    <value>Attaching to process.</value>
+  </data>
+  <data name="ProjectHotReloadSessionManager_ProcessAlreadyExited" xml:space="preserve">
+    <value>The process has already exited.</value>
+  </data>
+  <data name="ProjectHotReloadSessionManager_NoActiveProcess" xml:space="preserve">
+    <value>Unable to start Hot Reload session: no active process.</value>
+  </data>
+  <data name="ProjectHotReloadSessionManager_ProcessExited" xml:space="preserve">
+    <value>The process has exited.</value>
+  </data>
+  <data name="ProjectHotReloadSessionManager_ErrorStoppingTheSession" xml:space="preserve">
+    <value>Error while stopping the session: {0}
+{1}</value>
+    <comment>{0} is the exception type name. {1} is the exception message.</comment>
+  </data>
+  <data name="ProjectHotReloadSessionManager_StartupHooksDisabled" xml:space="preserve">
+    <value>Hot Reload is not available because startup hooks have been disabled, possibly due to trimming.</value>
+  </data>
+  <data name="IncrementalBuildFailureWarningMessage_2" xml:space="preserve">
+    <value>WARNING: Potential build performance issue in '{0}'. The project does not appear up-to-date after a successful build: {1}. See https://aka.ms/incremental-build-failure.</value>
+    <comment>{0} is the file name of the project. {1} is a description of the failure. The period '.' after {1} is intentional and should be kept.</comment>
+  </data>
+  <data name="UpdateNamespacePromptMessage" xml:space="preserve">
+    <value>Adjust namespaces for moved files?</value>
+  </data>
+  <data name="WPFApp_Xaml_CouldntFindRootElement_1" xml:space="preserve">
+    <value>Could not find the expected root element "{0}" in the application definition file.</value>
+  </data>
+  <data name="WPFApp_Xaml_UnexpectedFormat_2" xml:space="preserve">
+    <value>The .xaml file was in an unexpected format, near line {0} column {1}.</value>
+    <comment>{0} is the line number of the problematic XAML, and {1} is the column.</comment>
+  </data>
+  <data name="InfoBarMessageNuGetCycleDetected" xml:space="preserve">
+    <value>A circular dependency A -&gt; B -&gt; A was detected during NuGet Restore which caused NuGet to stop restoring.
+Because the NuGet restore didn't finish correctly, the project might be in a bad state.
+
+This might be caused because one or more projects have a package that sets AssetTargetFallback, not supported for this scenario, which caused certain PackageReference to be included.
+
+NuGet Error NU1108</value>
+  </data>
+</root>

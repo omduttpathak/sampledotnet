@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en" target-language="ko" original="../Resources.resx">
+    <body>
+      <trans-unit id="DataFlowFaults">
+        <source>Project system data flow '{0}' closed because of an exception: {1}.</source>
+        <target state="translated">프로젝트 시스템 데이터 흐름 '{0}'이(가) {1} 예외로 인해 닫혔습니다.</target>
+        <note />
+      </trans-unit>
+      <trans-unit id="DiagnosticLevel_Error">
+        <source>Error</source>
+        <target state="translated">오류</target>
+        <note>Indicates that a diagnostic (i.e. a compiler warning) should be promoted to an error.</note>
+      </trans-unit>
+      <trans-unit id="DiagnosticLevel_None">
+        <source>None</source>
+        <target state="translated">없음</target>
+        <note>Indicates that a diagnostic (i.e. a compiler warning) should be disabled.</note>
+      </trans-unit>
+      <trans-unit id="DiagnosticLevel_Warning">
+        <source>Warning</source>
+        <target state="translated">경고</target>
+        <note>Indicates that a diagnostic (i.e. a compiler warning) should be kept as a warning rather than disabled or promoted to an error.</note>
+      </trans-unit>
+      <trans-unit id="FUTD_AddingInputReferenceCopyMarkers">
+        <source>Adding input reference copy markers:</source>
+        <target state="translated">입력 참고자료 복사 마커 추가:</target>
+        <note />
+      </trans-unit>
+      <trans-unit id="FUTD_AddingNewestImportInput">
+        <source>Adding newest import input:</source>
+        <target state="translated">최신 가져오기 입력 추가:</target>
+        <note />
+      </trans-unit>
+      <trans-unit id="FUTD_AddingProjectFileInputs">
+        <source>Adding project file inputs:</source>
+        <target state="translated">프로젝트 파일 입력 추가:</target>
+        <note />
+      </trans-unit>
+      <trans-unit id="FUTD_AddingTypedInputsInSet_2">
+        <source>Adding {0} inputs in Set="{1}":</source>
+        <target state="translated">Set="{1}"에 {0} 입력 추가:</target>
+        <note>{0} is an MSBuild item type. {1} is the name of the set.</note>
+      </trans-unit>
+      <trans-unit id="FUTD_AddingTypedInputs_1">
+        <source>Adding {0} inputs:</source>
+        <target state="translated">{0} 입력 추가:</target>
+        <note>{0} is an MSBuild item type.</note>
+      </trans-unit>
+      <trans-unit id="FUTD_AddingTypedOutputsInSet_2">
+        <source>Adding {0} outputs in Set="{1}":</source>
+        <target state="translated">Set="{1}"에 {0} 출력 추가:</target>
+        <note>{0} is an MSBuild item type. {1} is the name of the set.</note>
+      </trans-unit>
+      <trans-unit id="FUTD_AddingTypedOutputs_1">
+        <source>Adding {0} outputs:</source>
+        <target state="translated">{0} 출력 추가:</target>
+        <note>{0} is an MSBuild item type.</note>
+      </trans-unit>
+      <trans-unit id="FUTD_ChangedItemsAddition_4">
+        <source>{0} item added '{1}' (CopyToOutputDirectory={2}, TargetPath='{3}')</source>
+        <target state="translated">{0} 항목 '{1}' 추가됨(CopyToOutputDirectory={2}, TargetPath='{3}')</target>
+        <note>Do not translate 'CopyToOutputDirectory' or 'TargetPath'. {0} is an MSBuild item type. {1} is a file path. {2} and {3} are metadata values.</note>
+      </trans-unit>
+      <trans-unit id="FUTD_ChangedItemsRemoval_4">
+        <source>{0} item removed '{1}' (CopyToOutputDirectory={2}, TargetPath='{3}')</source>
+        <target state="translated">{0} 항목이 '{1}' 제거됨(CopyToOutputDirectory={2}, TargetPath='{3}')</target>
+        <note>Do not translate 'CopyToOutputDirectory' or 'TargetPath'. {0} is an MSBuild item type. {1} is a file path. {2} and {3} are metadata values.</note>
+      </trans-unit>
+      <trans-unit id="FUTD_CheckingConfiguration_1">
+        <source>Checking configuration {0}:</source>
+        <target state="translated">구성 {0}을(를) 확인하는 중:</target>
+        <note>{0} is a description of the project's configuration, such as "Debug|AnyCPU|net6.0".</note>
+      </trans-unit>
+      <trans-unit id="FUTD_CheckingCopiedOutputFile">
+        <source>Checking copied output (UpToDateCheckBuilt with Original property) file:</source>
+        <target state="translated">복사된 출력(Original 속성이 있는 UpToDateCheckBuilt) 파일 확인:</target>
+        <note>Do not translate UpToDateCheckBuilt or Original.</note>
+      </trans-unit>
+      <trans-unit id="FUTD_CheckingCopiedOutputFileDestinationNotFound_2">
+        <source>Destination '{0}' does not exist for copy from '{1}', not up-to-date.</source>
+        <target state="translated">'{1}'의 복사본에 대한 대상 '{0}'이(가) 존재하지 않으며 최신 상태가 아닙니다.</target>
+        <note>{0} and {1} are file paths.</note>
+      </trans-unit>
+      <trans-unit id="FUTD_CheckingCopiedOutputFileSourceNewer">
+        <source>Source is newer than build output destination, not up-to-date.</source>
+        <target state="translated">원본이 최신이 아니라 빌드 출력 대상보다 최신입니다.</target>
+        <note />
+      </trans-unit>
+      <trans-unit id="FUTD_CheckingCopiedOutputFileSourceNotFound_2">
+        <source>Source '{0}' does not exist for copy to '{1}', not up-to-date.</source>
+        <target state="translated">'{1}'(으)로 복사할 원본 '{0}'이(가) 존재하지 않으며 최신 상태가 아닙니다.</target>
+        <note>{0} and {1} are file paths.</note>
+      </trans-unit>
+      <trans-unit id="FUTD_CheckingCopyToOutputDirectoryItemDestinationNotFound_1">
+        <source>Destination '{0}' does not exist, not up-to-date.</source>
+        <target state="translated">대상 '{0}'이(가) 존재하지 않으며 최신 상태가 아닙니다.</target>
+        <note>{0} is a file path.</note>
+      </trans-unit>
+      <trans-unit id="FUTD_CheckingCopyToOutputDirectoryItem_3">
+        <source>Checking {0} item with CopyToOutputDirectory="{1}" '{2}':</source>
+        <target state="translated">CopyToOutputDirectory="{1}" '{2}'로 {0} 항목 확인:</target>
+        <note>Do not translate CopyToOutputDirectory. {0} is an MSBuild item type. {1} is from an enum of valid values. {2} a file path.</note>
+      </trans-unit>
+      <trans-unit id="FUTD_CheckingCopyToOutputDirectorySourceNewerThanDestination_4">
+        <source>{0} item with CopyToOutputDirectory="{1}" source '{2}' is newer than destination '{3}', not up-to-date.</source>
+        <target state="translated">CopyToOutputDirectory="{1}" 소스가 '{2}'인 {0} 항목이 대상 '{3}'보다 최신이고 최신 상태가 아닙니다.</target>
+        <note>Do not translate CopyToOutputDirectory. {0} is an MSBuild item type. {1} is from an enum of valid values. {2} and {3} are file paths.</note>
+      </trans-unit>
+      <trans-unit id="FUTD_CheckingCopyToOutputDirectorySourceNotFound_1">
+        <source>Source '{0}' does not exist, not up-to-date.</source>
+        <target state="translated">원본 '{0}'이(가) 존재하지 않으며 최신 상태가 아닙니다.</target>
+        <note>{0} is a file path.</note>
+      </trans-unit>
+      <trans-unit id="FUTD_ComparingInputOutputTimestamps_1">
+        <source>Comparing timestamps of inputs and outputs in Set="{0}":</source>
+        <target state="translated">Set="{0}"에서 입력 및 출력의 타임스탬프 비교:</target>
+        <note>Do not translate 'Set' as this name is used in code. {0} is the name of the set.</note>
+      </trans-unit>
+      <trans-unit id="FUTD_Completed">
+        <source>Up-to-date check completed in {0:N1} ms</source>
+        <target state="translated">{0:N1}ms 후에 최신 확인 완료</target>
+        <note>{0} is a duration in milliseconds. "ms" refers to "milliseconds". Leave the "{0:N1}" string as-is, for correct formatting of the number.</note>
+      </trans-unit>
+      <trans-unit id="FUTD_CopyAlwaysItemExists_2">
+        <source>{0} item '{1}' has CopyToOutputDirectory set to 'Always', and the project has DisableFastUpToDateCopyAlwaysOptimization set to 'true', not up-to-date.</source>
+        <target state="translated">{0} 항목 '{1}'에는 CopyToOutputDirectory가 'Always'로 설정되어 있고 프로젝트에는 DisableFastUpToDateCopyAlwaysOptimization이 최신 상태가 아닌 'true'로 설정되어 있습니다.</target>
+        <note>Do not translate 'CopyToOutputDirectory' or 'Always' or 'DisableFastUpToDateCopyAlwaysOptimization' or 'true'. {0} is an MSBuild item type. {1} is a file path.</note>
+      </trans-unit>
+      <trans-unit id="FUTD_CopyAlwaysItemsDiffer_7">
+        <source>{0} item with CopyToOutputDirectory="Always" source ('{1}' {2}, {3} bytes) differs from destination ('{4}' {5}, {6} bytes), not up-to-date.</source>
+        <target state="translated">CopyToOutputDirectory="Always" 소스('{1}' {2}, {3}바이트)가 있는 {0} 항목이 대상('{4}' {5}, {6}바이트)과 다릅니다. 최신 상태가 아닙니다.</target>
+        <note>Do not translate CopyToOutputDirectory="Always". {0} is an MSBuild item type. {1} and {4} are file paths. {2} and {5} are date times. {3} and {6} are byte counts.</note>
+      </trans-unit>
+      <trans-unit id="FUTD_CriticalBuildTasksRunning">
+        <source>Critical build tasks are running, not up-to-date.</source>
+        <target state="translated">중요한 빌드 작업이 최신 상태가 아닌 실행 중입니다.</target>
+        <note />
+      </trans-unit>
+      <trans-unit id="FUTD_DestinationFileTimeAndPath_2">
+        <source>Destination {0}: '{1}'</source>
+        <target state="translated">대상 {0}: '{1}'</target>
+        <note>{0} is a datetime. {1} is a file path.</note>
+      </trans-unit>
+      <trans-unit id="FUTD_DisableFastUpToDateCheckTrue">
+        <source>The 'DisableFastUpToDateCheck' property is 'true', not up-to-date.</source>
+        <target state="translated">'DisableFastUpToDateCheck' 속성은 최신이 아닌 'true'입니다.</target>
+        <note>Do not translate 'DisableFastUpToDateCheck' or 'true'.</note>
+      </trans-unit>
+      <trans-unit id="FUTD_Exception_1">
+        <source>Up-to-date check threw an exception. Not up-to-date. {0}</source>
+        <target state="translated">최신 검사에서 예외가 발생했습니다. 최신 정보가 아닙니다. {0}</target>
+        <note>{0} is the exception message.</note>
+      </trans-unit>
+      <trans-unit id="FUTD_FirstRun">
+        <source>The up-to-date check has not yet run for this project. Not up-to-date.</source>
+        <target state="translated">이 프로젝트에 대한 최신 확인이 아직 실행되지 않았습니다. 최신 정보가 아닙니다.</target>
+        <note />
+      </trans-unit>
+      <trans-unit id="FUTD_IgnoringKinds_1">
+        <source>Ignoring up-to-date check items with Kind="{0}"</source>
+        <target state="translated">Kind="{0}"인 최신 확인 항목 무시</target>
+        <note>Do not translate Kind. {0} is the kind name.</note>
+      </trans-unit>
+      <trans-unit id="FUTD_InputMarkerNewerThanOutputMarker_4">
+        <source>Input marker '{0}' is newer ({1}) than output marker '{2}' ({3}), not up-to-date.</source>
+        <target state="translated">입력 마커 '{0}'이(가) 최신이 아니라 출력 마커 '{2}' ({3})보다 최신({1})입니다.</target>
+        <note>{0} and {2} are file paths. {1} and {3} are datetimes.</note>
+      </trans-unit>
+      <trans-unit id="FUTD_InputModifiedSinceLastSuccessfulBuildStart_3">
+        <source>Input '{0}' ({1}) has been modified since the last successful build started ({2}), not up-to-date.</source>
+        <target state="translated">입력 '{0}'({1})이(가) 마지막으로 성공한 빌드가 시작된 이후({2}) 수정되었습니다. 최신 정보가 아닙니다.</target>
+        <note>{0} is a file path. {1} and {2} are datetimes.</note>
+      </trans-unit>
+      <trans-unit id="FUTD_InputNewerThanOutput_4">
+        <source>Input '{0}' is newer ({1}) than earliest output '{2}' ({3}), not up-to-date.</source>
+        <target state="translated">입력 '{0}'이(가) 최신이 아니라 가장 오래된 출력 '{2}'({3})보다 최신({1})입니다.</target>
+        <note>{0} and {2} are file paths. {1} and {3} are datetimes.</note>
+      </trans-unit>
+      <trans-unit id="FUTD_NoBuildOutputDefined">
+        <source>No build outputs defined.</source>
+        <target state="translated">빌드 출력이 정의되지 않았습니다.</target>
+        <note />
+      </trans-unit>
+      <trans-unit id="FUTD_NoBuildOutputDefinedInSet_1">
+        <source>No build outputs defined in Set="{0}".</source>
+        <target state="translated">Set="{0}"에 정의된 빌드 출력이 없습니다.</target>
+        <note>Do not translate 'Set' as this name is used in code. {0} is the name of the set.</note>
+      </trans-unit>
+      <trans-unit id="FUTD_NoInputMarkersExist">
+        <source>No input markers exist, skipping marker check.</source>
+        <target state="translated">마커 확인을 건너뛰는 입력 마커가 없습니다.</target>
+        <note />
+      </trans-unit>
+      <trans-unit id="FUTD_NoInputsDefined">
+        <source>No inputs defined.</source>
+        <target state="translated">정의된 입력이 없습니다.</target>
+        <note />
+      </trans-unit>
+      <trans-unit id="FUTD_NoInputsDefinedInSet_1">
+        <source>No inputs defined in Set="{0}".</source>
+        <target state="translated">Set="{0}"에 정의된 입력이 없습니다.</target>
+        <note>Do not translate 'Set' as this name is used in code. {0} is the name of the set.</note>
+      </trans-unit>
+      <trans-unit id="FUTD_NoInputsNewerThanEarliestOutputInSet_5">
+        <source>In Set="{4}", no inputs are newer than earliest output '{0}' ({1}). Newest input is '{2}' ({3}).</source>
+        <target state="translated">Set="{4}"에서 가장 빠른 출력 '{0}'({1})보다 최신 입력이 없습니다. 최신 입력은 '{2}'({3})입니다.</target>
+        <note>Do not translate 'Set' as this name is used in code. {0} and {2} are file paths. {1} and {2} are datetimes. {4} is the name of the set.</note>
+      </trans-unit>
+      <trans-unit id="FUTD_NoInputsNewerThanEarliestOutput_4">
+        <source>No inputs are newer than earliest output '{0}' ({1}). Newest input is '{2}' ({3}).</source>
+        <target state="translated">가장 빠른 출력 '{0}'({1})보다 최신 입력이 없습니다. 최신 입력은 '{2}'({3})입니다.</target>
+        <note>{0} and {2} are file paths. {1} and {2} are datetimes.</note>
+      </trans-unit>
+      <trans-unit id="FUTD_NoOutputMarkerExists_1">
+        <source>Output marker '{0}' does not exist, skipping marker check.</source>
+        <target state="translated">출력 마커 '{0}'이(가) 존재하지 않아 마커 검사를 건너뜁니다.</target>
+        <note>{0} is a file path.</note>
+      </trans-unit>
+      <trans-unit id="FUTD_NonRequiredInputNotFound_1">
+        <source>Input '{0}' does not exist, but is not required.</source>
+        <target state="translated">입력 '{0}'이(가) 존재하지 않지만 필수는 아닙니다.</target>
+        <note>{0} is a file path.</note>
+      </trans-unit>
+      <trans-unit id="FUTD_NonRequiredTypedInputNotFound_2">
+        <source>Input {1} item '{0}' does not exist, but is not required.</source>
+        <target state="translated">입력 {1} 항목 '{0}'이(가) 존재하지 않지만 필수는 아닙니다.</target>
+        <note>{0} is a file path. {1} is an MSBuild item type.</note>
+      </trans-unit>
+      <trans-unit id="FUTD_OptimizingCopyAlwaysItem">
+        <source>Optimizing CopyToOutputDirectory="Always" item. Disable this by setting DisableFastUpToDateCopyAlwaysOptimization to "true".</source>
+        <target state="translated">CopyToOutputDirectory="항상" 항목 최적화. DisableFastUpToDateCopyAlwaysOptimization을 "true"로 설정하여 이 기능을 비활성화합니다.</target>
+        <note>Do not translate "CopyToOutputDirectory", "Always", "DisableFastUpToDateCopyAlwaysOptimization" or "true".</note>
+      </trans-unit>
+      <trans-unit id="FUTD_OutputDoesNotExist_1">
+        <source>Output '{0}' does not exist, not up-to-date.</source>
+        <target state="translated">출력 '{0}'이(가) 존재하지 않으며 최신 상태가 아닙니다.</target>
+        <note>{0} is a file path.</note>
+      </trans-unit>
+      <trans-unit id="FUTD_RequiredInputNotFound_1">
+        <source>Input '{0}' does not exist and is required, not up-to-date.</source>
+        <target state="translated">입력 '{0}'이(가) 존재하지 않으며 필수 항목이며 최신 정보가 아닙니다.</target>
+        <note>{0} is a file path.</note>
+      </trans-unit>
+      <trans-unit id="FUTD_RequiredTypedInputNotFound_2">
+        <source>Input {1} item '{0}' does not exist and is required, not up-to-date.</source>
+        <target state="translated">입력 {1} 항목 '{0}'이(가) 존재하지 않으며 필수 항목이며 최신 상태가 아닙니다.</target>
+        <note>{0} is a file path. {1} is an MSBuild item type.</note>
+      </trans-unit>
+      <trans-unit id="FUTD_SetOfChangedItemsIsEmpty">
+        <source>The set of changed items is empty.</source>
+        <target state="translated">변경된 항목 집합이 비어 있습니다.</target>
+        <note />
+      </trans-unit>
+      <trans-unit id="FUTD_SetOfItemsChangedMoreRecentlyThanOutput_2">
+        <source>The set of project items was changed more recently ({0}) than the last successful build start time ({1}), not up-to-date.</source>
+        <target state="translated">프로젝트 항목 집합이 마지막 성공적인 빌드 시작 시간({1})보다 최근({0})에 변경되었습니다. 최신 정보가 아닙니다.</target>
+        <note>{0} and {1} are datetimes.</note>
+      </trans-unit>
+      <trans-unit id="FUTD_SkippingIgnoredKindItem_2">
+        <source>Skipping '{0}' with ignored Kind="{1}"</source>
+        <target state="translated">무시된 Kind="{1}"(으)로 '{0}' 건너뛰기</target>
+        <note>Do not translate 'Kind' as this name is used in code. {0} is a file path. {2} is the name of the kind.</note>
+      </trans-unit>
+      <trans-unit id="FUTD_SourceFileTimeAndPath_2">
+        <source>Source {0}: '{1}'</source>
+        <target state="translated">원본 {0}: '{1}'</target>
+        <note>{0} is a datetime. {1} is a file path.</note>
+      </trans-unit>
+      <trans-unit id="FUTD_TypedInputModifiedSinceLastSuccessfulBuildStart_4">
+        <source>Input {3} item '{0}' ({1}) has been modified since the last successful build started ({2}), not up-to-date.</source>
+        <target state="translated">입력 {3} 항목 '{0}'({1})은(는) 마지막 빌드({2})가 시작된 이후 수정되었습니다. 최신 정보가 아닙니다.</target>
+        <note>{0} is a file path. {1} and {2} are datetimes. {3} is an MSBuild item type.</note>
+      </trans-unit>
+      <trans-unit id="FUTD_TypedInputNewerThanOutput_5">
+        <source>Input {4} item '{0}' is newer ({1}) than earliest output '{2}' ({3}), not up-to-date.</source>
+        <target state="translated">입력 {4} 항목 '{0}'이(가) 최신 출력 '{2}'({3})보다 최신({1})이며 최신 상태가 아닙니다.</target>
+        <note>{0} and {2} are file paths. {1} and {3} are datetimes. {4} is an MSBuild item type.</note>
+      </trans-unit>
+      <trans-unit id="FUTD_UpToDate">
+        <source>Project is up-to-date.</source>
+        <target state="translated">프로젝트가 최신 상태입니다.</target>
+        <note />
+      </trans-unit>
+      <trans-unit id="FUTD_WriteTimeOnOutputMarker_2">
+        <source>Write timestamp on output marker is {0} on '{1}'.</source>
+        <target state="translated">출력 마커의 쓰기 타임스탬프는 '{1}'의 {0}입니다.</target>
+        <note>{0} is a datetime. {1} is a file path.</note>
+      </trans-unit>
+      <trans-unit id="ImportsTreeNodeName">
+        <source>Imports</source>
+        <target state="translated">가져오기</target>
+        <note />
+      </trans-unit>
+      <trans-unit id="JsonErrorsNeedToBeCorrected_1">
+        <source>Errors in '{0}' need to be corrected before applying changes.</source>
+        <target state="translated">변경 내용을 적용하려면 먼저 '{0}'의 오류를 해결해야 합니다.</target>
+        <note>{0} is the path to the malformed .json file.</note>
+      </trans-unit>
+      <trans-unit id="JsonErrorsNeedToBeCorrected_WithErrorMessage_2">
+        <source>Errors in '{0}' need to be corrected before applying changes. Error message:
+{1}</source>
+        <target state="translated">변경 내용을 적용하기 전에 '{0}'의 오류를 수정해야 합니다. 오류 메시지:
+{1}</target>
+        <note>{0} is the path to the malformed .json file. {1} is an error message containing more details about the problems in the file.</note>
+      </trans-unit>
+      <trans-unit id="NeutralLanguage_DisplayNameFormatString">
+        <source>{0} - {1}</source>
+        <target state="translated">{0} - {1}</target>
+        <note>{0} is a culture name such as "English (British)" or "Portugeuse (Brazil)", and {1} is the corresponding culture code such as "en-GB" or "pt-BR". </note>
+      </trans-unit>
+      <trans-unit id="NoActionProfileName">
+        <source>Start</source>
+        <target state="translated">시작</target>
+        <note />
+      </trans-unit>
+      <trans-unit id="MsBuildMissingValueToRemove">
+        <source>The specified value to remove '{0}' was not present in the property '{1}'</source>
+        <target state="translated">'{0}'을(를) 제거하기 위해 지정한 값이 '{1}' 속성에 없습니다.</target>
+        <note>{0} will be a specific property value such as "Debug", {1} will be an MsBuild property name such as "Configurations". Neither of those values will be localized.</note>
+      </trans-unit>
+      <trans-unit id="MsBuildMissingValueToRename">
+        <source>The specified value to rename '{0}' was not present in the property '{1}'</source>
+        <target state="translated">'{0}'의 이름을 변경하기 위해 지정한 값이 '{1}' 속성에 없습니다.</target>
+        <note>{0} will be a specific property value such as "Debug", {1} will be an MsBuild property name such as "Configurations". Neither of those values will be localized.</note>
+      </trans-unit>
+      <trans-unit id="AnalyzersNodeName">
+        <source>Analyzers</source>
+        <target state="translated">분석기</target>
+        <note />
+      </trans-unit>
+      <trans-unit id="AssembliesNodeName">
+        <source>Assemblies</source>
+        <target state="translated">어셈블리</target>
+        <note />
+      </trans-unit>
+      <trans-unit id="ComNodeName">
+        <source>COM</source>
+        <target state="translated">COM</target>
+        <note />
+      </trans-unit>
+      <trans-unit id="DependenciesNodeName">
+        <source>Dependencies</source>
+        <target state="translated">종속성</target>
+        <note />
+      </trans-unit>
+      <trans-unit id="FrameworkAssembliesNodeName">
+        <source>Framework Assemblies</source>
+        <target state="translated">프레임워크 어셈블리</target>
+        <note />
+      </trans-unit>
+      <trans-unit id="NoAuth">
+        <source>No Authentication</source>
+        <target state="translated">인증 안 함</target>
+        <note />
+      </trans-unit>
+      <trans-unit id="OutputGroupPublishItemsDescription">
+        <source>Contains all the assemblies needed when publishing a .NET Core project.</source>
+        <target state="translated">.NET Core 프로젝트를 게시할 때 필요한 모든 어셈블리를 포함합니다.</target>
+        <note />
+      </trans-unit>
+      <trans-unit id="OutputGroupPublishItemsDisplayName">
+        <source>Publish Items</source>
+        <target state="translated">게시 항목</target>
+        <note />
+      </trans-unit>
+      <trans-unit id="ProjectLoadedWithWrongProjectType">
+        <source>The project file '{0}' cannot be opened. 
+
+This project was loaded using the wrong project type, likely as a result of renaming the project extension outside of Visual Studio. Remove and re-add the project to have the solution pick up the right project type.</source>
+        <target state="translated">프로젝트 파일 '{0}'을(를) 열 수 없습니다. 
+
+이 프로젝트는 Visual Studio 외부에서 프로젝트 확장명의 이름을 바꾼 결과로 잘못된 프로젝트 형식을 사용하여 로드된 것 같습니다. 솔루션에서 올바른 프로젝트 형식을 선택하도록 프로젝트를 제거했다가 다시 추가하세요.</target>
+        <note />
+      </trans-unit>
+      <trans-unit id="ProjectsNodeName">
+        <source>Projects</source>
+        <target state="translated">프로젝트</target>
+        <note />
+      </trans-unit>
+      <trans-unit id="Property_NoneValue">
+        <source>(None)</source>
+        <target state="translated">(없음)</target>
+        <note>Special value to show in the project property pages when a property has no value.</note>
+      </trans-unit>
+      <trans-unit id="SdkNodeName">
+        <source>SDK</source>
+        <target state="translated">SDK</target>
+        <note />
+      </trans-unit>
+      <trans-unit id="FrameworkNodeName">
+        <source>Frameworks</source>
+        <target state="translated">프레임워크</target>
+        <note />
+      </trans-unit>
+      <trans-unit id="PackagesNodeName">
+        <source>Packages</source>
+        <target state="translated">패키지</target>
+        <note />
+      </trans-unit>
+      <trans-unit id="SpecialFileProvider_FileOrFolderAlreadyExists">
+        <source>A file or folder with the name '{0}' already exists on disk at this location. Please choose another name.
+
+If this file or folder does not appear in Solution Explorer, then it is not currently part of your project. To view files which exist on disk, but are not in the project, select Show All Files from the Project menu.</source>
+        <target state="translated">이름이 '{0}'인 파일 또는 폴더가 이 위치의 디스크에 이미 있습니다. 다른 이름을 선택하세요.
+
+이 파일 또는 폴더가 솔루션 탐색기에 나타나지 않으면 현재 사용 중인 프로젝트의 일부가 아닙니다. 프로젝트에 없지만 디스크에 있는 파일을 보려면 [프로젝트] 메뉴에서 [모든 파일 표시]를 선택하세요.</target>
+        <note />
+      </trans-unit>
+      <trans-unit id="WindowsAuth">
+        <source>Windows Authentication</source>
+        <target state="translated">Windows 인증</target>
+        <note />
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
